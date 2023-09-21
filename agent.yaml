@@ -1,0 +1,13 @@
+handle: "agent"
+description: |
+  The `agent` serves the following function.
+
+  Example queries:
+    -Do this task for me.
+
+more_info_url: "https://github.com/fixie-ai/fixie-examples"
+entry_point: main:agent
+public: false
+tests:
+  - query: "Please do the task."
+    expected: "The response should indicate that the task has been done."
